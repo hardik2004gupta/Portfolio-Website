@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    width: 100%;
+    width: 90%;
     height: 100vh;
     overflow-x: hidden;
     background-color: black;
@@ -81,8 +81,8 @@ section{
 }
 
 .home .home-content h1{
-    font-size: 6rem;
-    font-weight: 700;
+    font-size: 5.7rem;
+    font-weight: 500;
     line-height: 1.3;
 }
 
@@ -91,23 +91,23 @@ span{
 }
 
 .home-content h3{
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .home-content p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .home-img{
-    border-radius: 50%;
+    border-radius: 90%;
 }
 
 .home-img img{
     position: relative;
-    width: 32vw;
-    border-radius: 50%;
+    width: 28vw;
+    border-radius: 70%;
     box-shadow: 0 0 25px solid #b74b4b;
     cursor: pointer;
     transition: 0.2s linear;
@@ -245,6 +245,8 @@ span{
     bottom: 0;
     right: 0;
     z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 .floating {  
     animation-name: floating;
@@ -264,3 +266,27 @@ span{
 .GFG:hover {
     filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
 }
+
+
+.playwrite-gb-s-abc {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+
+.oxanium-abc {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.oxanium-def {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
