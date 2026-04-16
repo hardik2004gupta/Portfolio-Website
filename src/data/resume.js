@@ -123,8 +123,8 @@ export const PROJECTS = [
     blurb:
       "A low-latency conversational AI built on Groq-hosted LLaMA models with LangChain as the orchestration layer. Prompt-driven workflows, pluggable memory, and a scaffold ready for RAG and agent-based extensions.",
     tags: ["LLM", "Conversational", "Infra"],
-    live: "https://hardik-gupta.netlify.app",
-    code: "https://github.com/hardik2004gupta",
+    live: "https://conversoai.streamlit.app/",
+    code: "https://github.com/hardik2004gupta/ConversoAI",
     accent: "amber",
     glyph: "◉",
   },
@@ -136,8 +136,8 @@ export const PROJECTS = [
     blurb:
       "Predicts DTC and DTS sonic travel times directly from well logs — removing the need for expensive sonic logging runs. R² > 0.92 on evaluation, served at sub-100ms latency through a FastAPI inference API.",
     tags: ["Research", "API", "Regression"],
-    live: "https://hardik-gupta.netlify.app",
-    code: "https://github.com/hardik2004gupta",
+    live: "https://sonic-wave-ml-predictor.onrender.com/",
+    code: "https://github.com/hardik2004gupta/Sonic_Wave_ML_Predictor",
     accent: "phosphor",
     glyph: "◈",
   },
@@ -149,7 +149,7 @@ export const PROJECTS = [
     blurb:
       "An Apache Airflow DAG that pulls NASA's Astronomy Picture of the Day every morning, lands it in PostgreSQL, and ships the whole thing as a containerized stack — scheduled, monitored, reproducible.",
     tags: ["Data Eng", "Pipeline", "Infra"],
-    code: "https://github.com/hardik2004gupta",
+    code: "https://github.com/hardik2004gupta/ETL_Astro_Pipeline_Project",
     accent: "bone",
     glyph: "◎",
   },
